@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicons -->
+<link rel="icon" href="fav.svg" type="image/svg+xml">
+<link rel="icon" href="fav.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="fav.png" sizes="180x180">
+  <title>1:1 Online Math Coaching | Rohit Kakati</title>
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900 text-base antialiased selection:bg-orange-500 selection:text-white">
+
+  <!-- Hero & Profile Section -->
+  <header class="max-w-6xl mx-auto px-5 pt-8 pb-12 md:pt-14 md:pb-16">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+      
+      <!-- Left Column: Value Prop & Actions -->
+      <div class="lg:col-span-7 space-y-6 text-left lg:text-left p-4">
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#191847] tracking-tight leading-tight pr-16">
+          Help Your Child <span class="text-orange-600">Master Math</span>
+          <span class="block text-xl sm:text-2xl font-bold text-slate-700 mt-2">1:1 Online Math Coaching for Grades 8–12</span>
+        </h1>
+
+        <p class="text-sm sm:text-base text-slate-600 max-w-xl lg:mx-0 leading-relaxed">
+          Personalized first-principles teaching, curated worksheets, and monthly progress reports.
+        </p>
+
+        <!-- Curricula Badges -->
+        <div class="pt-2">
+          <p class="text-sm sm:text-base font-bold uppercase tracking-wider text-slate-400 mb-3">Curricula Covered</p>
+          <div class="flex flex-wrap justify-left lg:justify-start gap-2">
+            <span class="px-3 py-1 bg-slate-200/70 hover:bg-slate-200 text-slate-800 text-sm sm:text-base font-bold rounded-lg transition">IB (AA/AI)</span>
+            <span class="px-3 py-1 bg-slate-200/70 hover:bg-slate-200 text-slate-800 text-sm sm:text-base font-bold rounded-lg transition">IGCSE / GCSE</span>
+            <span class="px-3 py-1 bg-slate-200/70 hover:bg-slate-200 text-slate-800 text-sm sm:text-base font-bold rounded-lg transition">A-Levels</span>
+            <span class="px-3 py-1 bg-slate-200/70 hover:bg-slate-200 text-slate-800 text-sm sm:text-base font-bold rounded-lg transition">AP Calculus/Stats</span>
+            <span class="px-3 py-1 bg-slate-200/70 hover:bg-slate-200 text-slate-800 text-sm sm:text-base font-bold rounded-lg transition">CBSE & ICSE</span>
+            <span class="px-3 py-1 bg-slate-200/70 hover:bg-slate-200 text-slate-800 text-sm sm:text-base font-bold rounded-lg transition">NCEA</span>
+          </div>
+        </div>
+
+        <!-- Call to Action -->
+        <!-- <div>
+          <p class="text-slate-500 text-sm sm:text-base max-w-lg mx-auto lg:mx-0">
+            Schedule a free introductory call. Or if you have any questions, message me on WhatsApp or Email.
+          </p>
+        </div> -->
+        <div class="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-6">
+          <button 
+            type="button" 
+            data-cal-link="mathwithrohit/30min"
+            data-cal-config='{"layout":"month_view"}'
+            class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 text-sm sm:text-base font-bold text-white bg-orange-600 hover:bg-orange-700 rounded-xl hover:shadow-orange-600/35 transition transform active:scale-95 cursor-pointer">
+            Book a Free Intro Call
+          </button>
+
+          <div>
+          <p class="text-slate-500 text-sm sm:text-base max-w-lg mx-auto lg:mx-0">
+            Have a question? Message me
+          </p>
+          </div>
+          
+          <div class="flex items-center gap-6">
+            <a href="https://wa.me/919560075597" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="p-2 bg-emerald-50 text-emerald-600 hover:bg-emerald-100 rounded-xl transition border border-emerald-200/60">
+              <svg class="w-8 h-8 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.275.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.072.043.419-.101.824z"/></svg>
+            </a>
+            <a href="mailto:rohitkakati.work@gmail.com" aria-label="Email" class="p-3 bg-indigo-50 text-[#191847] hover:bg-indigo-100 rounded-xl transition border border-indigo-200/60">
+              <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Tutor Card -->
+      <div class="lg:col-span-5">
+        <div class="bg-white border border-slate-200/80 rounded-3xl p-6 sm:p-8 shadow-xl shadow-slate-200/50 relative overflow-hidden mx-">
+          <div class="flex flex-col items-center text-center">
+            <div class="relative mb-5">
+              <div class="w-32 h-32 sm:w-36 sm:h-36 rounded-2xl overflow-hidden bg-orange-500 p-1 shadow-md">
+                <div class="w-full h-full bg-slate-900 rounded-[14px] flex items-center justify-center text-white text-xl sm:text-2xl font-extrabold">
+                  <div class="relative">
+                    <div class="w-32 h-32 sm:w-36 sm:h-36 rounded-2xl overflow-hidden bg-orange-600 p-0 shadow-md">
+                      <img 
+                        src="rohitkakatipng.png" 
+                        alt="Rohit Kakati - Online Math Tutor" 
+                        class="w-full h-full object-cover object-top rounded-[14px] bg-orange-600"
+                        width="144"
+                        height="144"
+                        loading="eager"
+                        decoding="async"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <h3 class="text-xl sm:text-2xl font-bold text-slate-900 mb-1">Rohit Kakati</h3>
+        <p style="text-align: justify;" class="text-sm sm:text-base text-slate-600 leading-relaxed mt-2 text-justify block">
+        I’m Rohit, a Physics Graduate offering 1:1 Math coaching through first principles. I eliminate rote memorization shortcuts to build deep mathematical intuition which helps equipping students with the logic, clarity, and composure to solve complex board and competition problems with absolute precision.
+      </p>    
+      </div>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Methodology Section -->
+  <section class="bg-[#191847] text-white py-16 px-5">
+    <div class="max-w-6xl mx-auto">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <h2 class="text-xl sm:text-2xl font-extrabold tracking-tight">How I Guide Students to Genuine Math Mastery?</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Pillar 1 -->
+        <div class="bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/[0.08] transition">
+          <h3 class="text-lg sm:text-xl font-bold mb-2">First-Principles Thinking</h3>
+          <p class="text-sm sm:text-base text-slate-300 leading-relaxed">
+            I teach students to understand the why behind every concept, encourage derivation and eliminate reliance on rote memorization and formula guessing.
+          </p>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/[0.08] transition">
+          <h3 class="text-lg sm:text-xl font-bold mb-2">Targeted 1:1 Practice</h3>
+          <p class="text-sm sm:text-base text-slate-300 leading-relaxed">
+            Following each session, students receive custom worksheets tailored to their exact gaps, reviewed in depth during our next class to review steps, logic, and problem-solving strategies.
+          </p>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/[0.08] transition">
+          <h3 class="text-lg sm:text-xl font-bold mb-2">Zero-Gap Progression</h3>
+          <p class="text-sm sm:text-base text-slate-300 leading-relaxed">
+            I never rush through a syllabus. I do not advance to a new topic until the current one is thoroughly understood, ensuring a solid foundation every step of the way.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Pricing & Structure Section -->
+  <section class="bg-gradient-to-b from-orange-500 to-orange-600 text-white py-16 px-5">
+    <div class="max-w-6xl mx-auto">
+      
+      <div class="text-center mb-12">
+        <h2 class="text-xl sm:text-2xl font-extrabold tracking-tight">Pricing and Classes</h2>
+      </div>
+
+      <!-- Pricing Cards -->
+      <!-- <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-10">
+        
+        <div class="bg-white text-slate-900 rounded-2xl p-5 sm:p-6 text-center">
+          <span class="text-[16px] font-bold uppercase tracking-wider text-slate-400">Foundation</span>
+          <h3 class="text-[16px] font-extrabold mt-1">Grades 8–10</h3>
+          <div class="mt-4 text-[24px] font-black text-orange-600">
+            <span data-price-tier="grade8_10">₹1400</span><span class="text-[16px] font-medium text-slate-500">/hr</span>
+          </div>
+        </div>
+
+        <div class="bg-white text-slate-900 rounded-2xl p-5 sm:p-6 text-center">
+          <span class="text-[16px] font-bold uppercase tracking-wider text-slate-400">Intermediate</span>
+          <h3 class="text-[16px] font-extrabold mt-1">Grades 11–12</h3>
+          <div class="mt-4 text-[24px] font-black text-orange-600">
+            <span data-price-tier="grade11_12">₹1800</span><span class="text-[16px] font-medium text-slate-500">/hr</span>
+          </div>
+        </div>
+
+        <div class="bg-white text-slate-900 rounded-2xl p-5 sm:p-6 text-center">
+          <span class="text-[16px] font-bold uppercase tracking-wider text-slate-400">Competitive</span>
+          <h3 class="text-[16px] font-extrabold mt-1">Olympiad</h3>
+          <div class="mt-4 text-[24px] font-black text-orange-600">
+            <span data-price-tier="olympiad">₹2500</span><span class="text-[16px] font-medium text-slate-500">/hr</span>
+          </div>
+        </div>
+
+        <div class="bg-white text-slate-900 rounded-2xl p-5 sm:p-6 text-center">
+          <span class="text-[16px] font-bold uppercase tracking-wider text-slate-400">Targeted</span>
+          <h3 class="text-[16px] font-extrabold mt-1">Exam Prep</h3>
+          <div class="mt-4 text-[24px] font-black text-orange-600">
+            <span data-price-tier="exam_prep">₹2500</span><span class="text-[16px] font-medium text-slate-500">/hr</span>
+          </div>
+        </div>
+
+      </div> -->
+      <!-- Pricing Cards -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-6 mb-10">
+  
+  <div class="bg-white text-slate-900 rounded-2xl p-5 sm:p-6 text-center">
+    <span class="block w-full text-sm sm:text-base font-bold uppercase tracking-normal text-slate-400">Foundation</span>
+    <h3 class="text-sm sm:text-base font-extrabold mt-1">Grades 8–10</h3>
+    <div class="mt-4 text-xl sm:text-2xl font-black text-orange-600">
+      <span data-price-tier="grade8_10">₹1400</span><span class="text-sm sm:text-base font-medium text-slate-500">/hr</span>
+    </div>
+  </div>
+
+  <div class="bg-white text-slate-900 rounded-2xl p-5 sm:p-6 text-center">
+    <span class="block w-full text-sm sm:text-base font-bold uppercase tracking-normal text-slate-400">Intermediate</span>
+    <h3 class="text-sm sm:text-base font-extrabold mt-1">Grades 11–12</h3>
+    <div class="mt-4 text-xl sm:text-2xl font-black text-orange-600">
+      <span data-price-tier="grade11_12">₹1800</span><span class="text-sm sm:text-base font-medium text-slate-500">/hr</span>
+    </div>
+  </div>
+
+  <div class="bg-white text-slate-900 rounded-2xl p-5 sm:p-6 text-center">
+    <span class="block w-full text-sm sm:text-base font-bold uppercase tracking-normal text-slate-400">Competitive</span>
+    <h3 class="text-sm sm:text-base font-extrabold mt-1">Olympiad</h3>
+    <div class="mt-4 text-xl sm:text-2xl font-black text-orange-600">
+      <span data-price-tier="olympiad">₹2500</span><span class="text-sm sm:text-base font-medium text-slate-500">/hr</span>
+    </div>
+  </div>
+
+  <div class="bg-white text-slate-900 rounded-2xl p-5 sm:p-6 text-center">
+    <span class="block w-full text-sm sm:text-base font-bold uppercase tracking-normal text-slate-400">Targeted</span>
+    <h3 class="text-sm sm:text-base font-extrabold mt-1">Exam Prep</h3>
+    <div class="mt-4 text-xl sm:text-2xl font-black text-orange-600">
+      <span data-price-tier="exam_prep">₹2500</span><span class="text-sm sm:text-base font-medium text-slate-500">/hr</span>
+    </div>
+  </div>
+
+</div>
+
+      <!-- Inclusions Panel -->
+      <div class="mt-8 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
+        
+        <!-- Class Duration -->
+        <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4 sm:p-5 flex items-center gap-4 text-left shadow-sm">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center text-xl sm:text-2xl shrink-0">
+            ⏱️
+          </div>
+          <div>
+            <h4 class="font-bold text-sm sm:text-base text-white">Class Duration</h4>
+            <p class="text-sm sm:text-base text-orange-100 mt-0.5">60–120 mins / session (flexible)</p>
+          </div>
+        </div>
+        
+        <!-- Class Frequency -->
+        <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4 sm:p-5 flex items-center gap-4 text-left shadow-sm">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center text-xl sm:text-2xl shrink-0">
+            📅
+          </div>
+          <div>
+            <h4 class="font-bold text-sm sm:text-base text-white">Class Frequency</h4>
+            <p class="text-sm sm:text-base text-orange-100 mt-0.5">1–3 classes / week (flexible)</p>
+          </div>
+        </div>
+
+        <!-- Parent Reports -->
+        <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4 sm:p-5 flex items-center gap-4 text-left shadow-sm">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center text-xl sm:text-2xl shrink-0">
+            📊
+          </div>
+          <div>
+            <h4 class="font-bold text-sm sm:text-base text-white">Progress reports for Parents</h4>
+            <p class="text-sm sm:text-base text-orange-100 mt-0.5">Sent every 4 classes with analytics</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Social Proof / Testimonials -->
+  <section class="py-16 px-5 max-w-5xl mx-auto">
+    <div class="text-center mb-10">
+      <h2 class="text-xl sm:text-2xl font-extrabold text-[#191847]">What Parents & Students Say</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      
+      <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm">
+        <div class="flex items-center gap-1 text-amber-400 mb-4 text-sm sm:text-base">
+          ★★★★★
+        </div>
+        <p class="text-sm sm:text-base text-slate-700 italic leading-relaxed mb-6">
+          "My son is a gifted child and I was finding it hard to get him a teacher who could understand his level and challenge him. Rohit has been a perfect fit. He is patient, thorough and explains concepts in a way that makes sense to my son."
+        </p>
+        <div>
+          <h4 class="font-bold text-slate-900 text-sm sm:text-base">Olivia Diaz</h4>
+          <p class="text-sm sm:text-base text-slate-500">Parent (Grade 11 IB) • Dubai, UAE</p>
+        </div>
+      </div>
+
+      <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm">
+        <div class="flex items-center gap-1 text-amber-400 mb-4 text-sm sm:text-base">
+          ★★★★★
+        </div>
+        <p class="text-sm sm:text-base text-slate-700 italic leading-relaxed mb-6">
+          "The one thing I found useful were the regular parent reports which gave us total clarity on the progress. Highly recommended for IGCSE prep."
+        </p>
+        <div>
+          <h4 class="font-bold text-slate-900 text-sm sm:text-base">Rahul Gupta</h4>
+          <p class="text-sm sm:text-base text-slate-500">Parent (Grade 9 IGCSE Math) • Singapore</p>
+        </div>
+      </div>
+
+      <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm">
+        <div class="flex items-center gap-1 text-amber-400 mb-4 text-sm sm:text-base">
+          ★★★★★
+        </div>
+        <p class="text-sm sm:text-base text-slate-700 italic leading-relaxed mb-6">
+          "I switched many Math tutors before Mr.Kakati, but he was the first to make me feel confident in solving problems on my own. I actually enjoy Math now!"
+        </p>
+        <div>
+          <h4 class="font-bold text-slate-900 text-sm sm:text-base">Patrick Mondala</h4>
+          <p class="text-sm sm:text-base text-slate-500">Student (Grade 8 NCEA) • Auckland, New Zealand</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Final CTA Footer -->
+  <footer id="book" class="bg-[#191847] text-white py-14 px-8 text-left">
+    <div class="max-w-3xl mx-auto space-y-6">
+      <h2 class="text-xl sm:text-2xl font-extrabold">Ready to Rebuild Your Child’s Math Confidence?</h2>
+      <!-- <p class="text-slate-300 text-sm sm:text-base max-w-lg mx-auto">
+        Schedule a free introductory call. Or if you have any questions, message me on WhatsApp or Email.
+      </p> -->
+
+      <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-6">
+        <button 
+          type="button" 
+          data-cal-link="mathwithrohit/30min"
+          data-cal-config='{"layout":"month_view"}'
+          class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 text-sm sm:text-base font-bold text-white bg-orange-600 hover:bg-orange-700 rounded-xl hover:shadow-orange-600/35 transition transform active:scale-95 cursor-pointer">
+          Book a Free Intro Call
+        </button>
+
+        <div>
+          <p class="text-slate-500 text-sm sm:text-base max-w-lg mx-auto lg:mx-0">
+            Have a question? Message me
+          </p>
+          </div>
+        
+        <div class="flex items-center gap-6">
+          <a href="https://wa.me/919560075597" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="p-2 bg-emerald-50 text-emerald-600 hover:bg-emerald-100 rounded-xl transition border border-emerald-200/60">
+            <svg class="w-8 h-8 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.275.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.072.043.419-.101.824z"/></svg>
+          </a>
+          <a href="mailto:rohitkakati.work@gmail.com" aria-label="Email" class="p-3 bg-indigo-50 text-[#191847] hover:bg-indigo-100 rounded-xl transition border border-indigo-200/60">
+            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  
+  <!-- 1. Cal.com Popup Embed Script -->
+  <script type="text/javascript">
+    (function (C, A, L) { 
+      let p = function (a, ar) { a.q.push(ar); }; 
+      let d = C.document; 
+      C.Cal = C.Cal || function () { 
+        let cal = C.Cal; 
+        let ar = arguments; 
+        if (!cal.loaded) { 
+          cal.ns = {}; 
+          cal.q = cal.q || []; 
+          d.head.appendChild(d.createElement("script")).src = A; 
+          cal.loaded = true; 
+        } 
+        if (ar[0] === L) { 
+          const api = function () { p(api, arguments); }; 
+          const namespace = ar[1]; 
+          api.q = api.q || []; 
+          if (typeof namespace === "string") {
+            cal.ns[namespace] = cal.ns[namespace] || api;
+            p(cal.ns[namespace], ar);
+            p(cal, ["initNamespace", namespace]);
+          } else p(cal, ar); 
+          return; 
+        } 
+        p(cal, ar); 
+      }; 
+    })(window, "https://app.cal.com/embed/embed.js", "init");
+
+    Cal("init", { origin: "https://cal.com" });
+
+    Cal("ui", {
+      "theme": "light",
+      "styles": {
+        "branding": {
+          "brandColor": "#ea580c"
+        }
+      },
+      "hideEventTypeDetails": false,
+      "layout": "month_view"
+    });
+  </script>
+
+  <!-- 2. Dynamic Currency Switcher Script -->
+  <script type="text/javascript">
+    function runPriceSwitcher() {
+      const priceMatrix = {
+        IN: { grade8_10: "₹1,400", grade11_12: "₹1,800", olympiad: "₹2,500", exam_prep: "₹2,500" },
+        SG: { grade8_10: "S$20",   grade11_12: "S$30",   olympiad: "S$40",   exam_prep: "S$40" },
+        GB: { grade8_10: "£15",    grade11_12: "£20",    olympiad: "£30",    exam_prep: "£30" },
+        AE: { grade8_10: "AED 55", grade11_12: "AED 70", olympiad: "AED 95", exam_prep: "AED 95" },
+        AU: { grade8_10: "A$25",   grade11_12: "A$35",   olympiad: "A$45",   exam_prep: "A$45" },
+        NZ: { grade8_10: "NZ$25",  grade11_12: "NZ$35",  olympiad: "NZ$45",  exam_prep: "NZ$45" },
+        DEFAULT: { grade8_10: "$25", grade11_12: "$35", olympiad: "$45", exam_prep: "$45" }
+      };
+
+      function updatePrices(countryCode) {
+        const code = (countryCode || "").toUpperCase();
+        const rates = priceMatrix[code] || priceMatrix.DEFAULT;
+        const targets = document.querySelectorAll("[data-price-tier]");
+        
+        targets.forEach((el) => {
+          const tier = el.getAttribute("data-price-tier");
+          if (rates[tier]) {
+            el.textContent = rates[tier];
+          }
+        });
+      }
+
+      function detectFromTimezone() {
+        const tz = Intl.DateTimeFormat().resolvedOptions().timeZone || "";
+        if (tz.includes("Calcutta") || tz.includes("Kolkata")) return "IN";
+        if (tz.includes("Singapore")) return "SG";
+        if (tz.includes("London")) return "GB";
+        if (tz.includes("Dubai")) return "AE";
+        if (tz.includes("Auckland")) return "NZ";
+        if (tz.includes("Sydney") || tz.includes("Melbourne")) return "AU";
+        return "DEFAULT";
+      }
+
+      const match = window.location.href.match(/[?&]country=([a-zA-Z]{2})/i);
+      const urlCountry = match ? match[1] : null;
+
+      if (urlCountry) {
+        updatePrices(urlCountry);
+      } else {
+        fetch("https://ipapi.co/json/")
+          .then((res) => res.json())
+          .then((data) => {
+            if (data && data.country_code) {
+              updatePrices(data.country_code);
+            } else {
+              updatePrices(detectFromTimezone());
+            }
+          })
+          .catch(() => {
+            updatePrices(detectFromTimezone());
+          });
+      }
+    }
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", runPriceSwitcher);
+    } else {
+      runPriceSwitcher();
+    }
+  </script>
+
+</body>
+</html>
